@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09efaee7-2c70-4d7a-a11a-5b0ebb28cada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/DiabeticRetinopathyAI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/check_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test_dataloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/test_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/transforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/explainability/gradcam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/efficientet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reports/report_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +37,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000389095" />
+      <entry key="S30" value="1.0009908253331838" />
+      <entry key="S60" value="1.070775782037356" />
+      <entry key="M2" value="1.7307962659706324" />
+      <entry key="M5" value="7.98056114026476" />
+      <entry key="M10" value="21.902675904588754" />
+      <entry key="M15" value="33.595030695238904" />
+      <entry key="M30" value="55.67749054212062" />
+      <entry key="H1" value="74.5337652429343" />
+      <entry key="H2" value="87.24903014368654" />
+      <entry key="H4" value="94.69522797120635" />
+      <entry key="D1" value="101.55142584940387" />
+      <entry key="W1" value="102.79141522322726" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="6.761200670869803E-163" />
+      <entry key="S5" value="1.3552191515676193E-65" />
+      <entry key="S10" value="3.68133012859159E-33" />
+      <entry key="S30" value="1.544074515265498E-11" />
+      <entry key="S60" value="3.929471357912532E-6" />
+      <entry key="M2" value="0.0019822894233467838" />
+      <entry key="M5" value="0.08295963364359614" />
+      <entry key="M10" value="0.28802714046352684" />
+      <entry key="M15" value="0.4361363404578316" />
+      <entry key="M30" value="0.6604061935338218" />
+      <entry key="H1" value="0.8126537968494469" />
+      <entry key="H2" value="0.9014731259718436" />
+      <entry key="H4" value="0.9494593861623799" />
+      <entry key="D1" value="0.9913934959100325" />
+      <entry key="W1" value="0.9987659400893164" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.843587857589002E-4" />
+      <entry key="MS500" value="0.19533197004307934" />
+      <entry key="S2" value="0.6648035540908575" />
+      <entry key="S5" value="0.8493316985536237" />
+      <entry key="S10" value="0.9215919371529406" />
+      <entry key="S30" value="0.974140160168905" />
+      <entry key="S60" value="1.0572572296853062" />
+      <entry key="M2" value="1.7258672499793806" />
+      <entry key="M5" value="8.059359619457714" />
+      <entry key="M10" value="22.187041773685806" />
+      <entry key="M15" value="34.027987659058255" />
+      <entry key="M30" value="56.33574849587916" />
+      <entry key="H1" value="75.34515282679746" />
+      <entry key="H2" value="88.14981331949564" />
+      <entry key="H4" value="95.64432687383305" />
+      <entry key="D1" value="102.5427569897215" />
+      <entry key="W1" value="103.79017219800076" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4,
   "fromUser": false
@@ -42,6 +111,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.check_dataset.executor": "Run",
+    "Python.dataset.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test_dataloader.executor": "Run",
+    "Python.test_dataset.executor": "Run",
+    "Python.transforms.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -51,7 +126,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Vivyn Kilari/PycharmProjects/DiabeticRetinopathyAI",
+    "last_opened_file_path": "C:/Users/Vivyn Kilari/PycharmProjects/DiabeticRetinopathyAI/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,7 +143,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vivyn Kilari\PycharmProjects\DiabeticRetinopathyAI\src" />
       <recent name="C:\Users\Vivyn Kilari\PycharmProjects\DiabeticRetinopathyAI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vivyn Kilari\PycharmProjects\DiabeticRetinopathyAI\src" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -85,11 +164,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782717622735</updated>
-      <workItem from="1782717623759" duration="482000" />
+      <workItem from="1782717623759" duration="4023000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$transforms.coverage" NAME="transforms Coverage Results" MODIFIED="1782721217280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_dataloader.coverage" NAME="test_dataloader Coverage Results" MODIFIED="1782721677146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1782721227668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$check_dataset.coverage" NAME="check_dataset Coverage Results" MODIFIED="1782721092686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$main.coverage" NAME="main Coverage Results" MODIFIED="1782719262617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_dataset.coverage" NAME="test_dataset Coverage Results" MODIFIED="1782721600319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
   </component>
 </project>
