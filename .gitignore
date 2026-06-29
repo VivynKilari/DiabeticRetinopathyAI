@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Dataset
+datasets/
+
+# Model Weights
+*.pth
+*.pt
+
+# IDE
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Output
+outputs/models/
+outputs/figures/

@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+
+opencv-python
+numpy
+pandas
+matplotlib
+scikit-learn
+albumentations
+timm
+Pillow
+tqdm
+grad-cam
+streamlit
+kaggle
