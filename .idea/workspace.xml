@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09efaee7-2c70-4d7a-a11a-5b0ebb28cada" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/check_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/dataloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/preprocessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/test_dataloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/test_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/transforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/explainability/gradcam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/efficientet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reports/report_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/training/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/test_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +32,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000389095" />
-      <entry key="S30" value="1.0009908253331838" />
-      <entry key="S60" value="1.070775782037356" />
-      <entry key="M2" value="1.7307962659706324" />
-      <entry key="M5" value="7.98056114026476" />
-      <entry key="M10" value="21.902675904588754" />
-      <entry key="M15" value="33.595030695238904" />
-      <entry key="M30" value="55.67749054212062" />
-      <entry key="H1" value="74.5337652429343" />
-      <entry key="H2" value="87.24903014368654" />
-      <entry key="H4" value="94.69522797120635" />
-      <entry key="D1" value="101.55142584940387" />
-      <entry key="W1" value="102.79141522322726" />
+      <entry key="MS100" value="2.4046728976962286" />
+      <entry key="MS500" value="4.110911206391272" />
+      <entry key="S2" value="4.747249735199713" />
+      <entry key="S5" value="4.896135991105033" />
+      <entry key="S10" value="4.947593895703797" />
+      <entry key="S30" value="4.982441802492499" />
+      <entry key="S60" value="5.007109631532219" />
+      <entry key="M2" value="5.545470907436042" />
+      <entry key="M5" value="10.681783956459546" />
+      <entry key="M10" value="22.457981158935876" />
+      <entry key="M15" value="34.19186284026344" />
+      <entry key="M30" value="60.164225325115844" />
+      <entry key="H1" value="85.47429844842786" />
+      <entry key="H2" value="103.88484839735666" />
+      <entry key="H4" value="115.11388140357005" />
+      <entry key="D1" value="125.72574365309495" />
+      <entry key="W1" value="127.67184357803369" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.761200670869803E-163" />
-      <entry key="S5" value="1.3552191515676193E-65" />
-      <entry key="S10" value="3.68133012859159E-33" />
-      <entry key="S30" value="1.544074515265498E-11" />
-      <entry key="S60" value="3.929471357912532E-6" />
-      <entry key="M2" value="0.0019822894233467838" />
-      <entry key="M5" value="0.08295963364359614" />
-      <entry key="M10" value="0.28802714046352684" />
-      <entry key="M15" value="0.4361363404578316" />
-      <entry key="M30" value="0.6604061935338218" />
-      <entry key="H1" value="0.8126537968494469" />
-      <entry key="H2" value="0.9014731259718436" />
-      <entry key="H4" value="0.9494593861623799" />
-      <entry key="D1" value="0.9913934959100325" />
-      <entry key="W1" value="0.9987659400893164" />
+      <entry key="S2" value="3.2291269977215954E-297" />
+      <entry key="S5" value="2.532993353728387E-119" />
+      <entry key="S10" value="5.032885210024546E-60" />
+      <entry key="S30" value="1.7137166189801296E-20" />
+      <entry key="S60" value="1.3090899965167123E-10" />
+      <entry key="M2" value="1.1441547082963513E-5" />
+      <entry key="M5" value="0.010553436487867966" />
+      <entry key="M10" value="0.10272992012003111" />
+      <entry key="M15" value="0.21934679864354578" />
+      <entry key="M30" value="0.4683447433713181" />
+      <entry key="H1" value="0.6843571752903003" />
+      <entry key="H2" value="0.8272588321017194" />
+      <entry key="H4" value="0.9095377024080521" />
+      <entry key="D1" value="0.984321076417046" />
+      <entry key="W1" value="0.9977449553020399" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.843587857589002E-4" />
-      <entry key="MS500" value="0.19533197004307934" />
-      <entry key="S2" value="0.6648035540908575" />
-      <entry key="S5" value="0.8493316985536237" />
-      <entry key="S10" value="0.9215919371529406" />
-      <entry key="S30" value="0.974140160168905" />
-      <entry key="S60" value="1.0572572296853062" />
-      <entry key="M2" value="1.7258672499793806" />
-      <entry key="M5" value="8.059359619457714" />
-      <entry key="M10" value="22.187041773685806" />
-      <entry key="M15" value="34.027987659058255" />
-      <entry key="M30" value="56.33574849587916" />
-      <entry key="H1" value="75.34515282679746" />
-      <entry key="H2" value="88.14981331949564" />
-      <entry key="H4" value="95.64432687383305" />
-      <entry key="D1" value="102.5427569897215" />
-      <entry key="W1" value="103.79017219800076" />
+      <entry key="MS100" value="2.296176663114449" />
+      <entry key="MS500" value="4.072364580328994" />
+      <entry key="S2" value="4.736075040307866" />
+      <entry key="S5" value="4.891522617213639" />
+      <entry key="S10" value="4.945262426603" />
+      <entry key="S30" value="4.981659049723008" />
+      <entry key="S60" value="5.0067132636345235" />
+      <entry key="M2" value="5.545170240955316" />
+      <entry key="M5" value="10.691444308508853" />
+      <entry key="M10" value="22.559063866207676" />
+      <entry key="M15" value="34.409325689163175" />
+      <entry key="M30" value="60.63086722600274" />
+      <entry key="H1" value="86.15748851491594" />
+      <entry key="H2" value="104.71142062805119" />
+      <entry key="H4" value="116.02304625363284" />
+      <entry key="D1" value="126.70999811671612" />
+      <entry key="W1" value="128.6695789026208" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -112,10 +105,13 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.check_dataset.executor": "Run",
+    "Python.config.executor": "Run",
     "Python.dataset.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test_dataloader.executor": "Run",
     "Python.test_dataset.executor": "Run",
+    "Python.test_model.executor": "Run",
+    "Python.train.executor": "Run",
     "Python.transforms.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -164,19 +160,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1782717622735</updated>
-      <workItem from="1782717623759" duration="4023000" />
+      <workItem from="1782717623759" duration="6818000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$transforms.coverage" NAME="transforms Coverage Results" MODIFIED="1782721217280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
-    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_dataloader.coverage" NAME="test_dataloader Coverage Results" MODIFIED="1782721677146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_dataloader.coverage" NAME="test_dataloader Coverage Results" MODIFIED="1782721731542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
     <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1782721227668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_model.coverage" NAME="test_model Coverage Results" MODIFIED="1782722172679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/models" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$config.coverage" NAME="config Coverage Results" MODIFIED="1782724216582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
     <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$check_dataset.coverage" NAME="check_dataset Coverage Results" MODIFIED="1782721092686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
     <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$main.coverage" NAME="main Coverage Results" MODIFIED="1782719262617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$test_dataset.coverage" NAME="test_dataset Coverage Results" MODIFIED="1782721600319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/data" />
+    <SUITE FILE_PATH="coverage/DiabeticRetinopathyAI$train.coverage" NAME="train Coverage Results" MODIFIED="1782724394078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/training" />
   </component>
 </project>
